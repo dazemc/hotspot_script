@@ -1,0 +1,7 @@
+[Unit]
+Description=Hotspot Autostart
+After=network.target
+[Service]
+ExecStart=/usr/sbin/hotspot_startup.sh
+[Install]
+WantedBy=multi-user.target
