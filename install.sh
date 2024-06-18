@@ -1,5 +1,6 @@
 !# /bin/bash
 wget https://github.com/dazemc/hotspot_script/archive/refs/heads/master.zip
+unzip master.zip
 cd hotspot_script-master
 chmod +x hotspot_autostart.sh
 touch hotspot_autostart.service
